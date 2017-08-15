@@ -1,10 +1,10 @@
-package com.arek.springdemo.dao;
+package com.arek.springdemo.service;
 
 import java.util.List;
 
 import com.arek.springdemo.entity.Customer;
 
-public interface CustomerDAO {
+public interface CustomerService {
 
 	public List<Customer> getCustomers();
 
